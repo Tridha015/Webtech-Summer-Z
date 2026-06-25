@@ -61,21 +61,18 @@ tr:nth-child(odd) td {
 .row {
   display: block;
   margin: 0px 0px 20px 0px;
-  clear: both;
 }
 
 .row label {
-  float: left;
+  display: inline-block;
   width: 100px;
   font-size: 18px;
-  padding-top: 8px;
 }
 
 .row input[type="text"],
 .row input[type="email"],
 .row textarea {
-  width: calc(100% - 110px);
-  float: left;
+  width: 75%;
   padding: 10px 10px 10px 10px;
   border: none;
   border-radius: 8px;
@@ -87,15 +84,8 @@ tr:nth-child(odd) td {
 .row textarea {
   height: 100px;
   resize: none;
+  vertical-align: top;
 }
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 .btn-block {
   padding-left: 800px;
   margin-top: 25px;
