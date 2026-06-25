@@ -44,7 +44,7 @@ tr:nth-child(odd) td {
 }
 
 .box {
-  background-color: #c4e8ce;
+  background-color:#b1f0c6;
   border-radius: 40px;
   padding: 30px 40px 30px 40px;
   max-width: 600px;
@@ -58,7 +58,6 @@ tr:nth-child(odd) td {
   margin: 0px 0px 30px 0px;
 }
 
-/* Form layout - renamed to .row */
 .row {
   display: block;
   margin: 0px 0px 20px 0px;
