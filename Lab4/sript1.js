@@ -4,7 +4,7 @@ const correctPassword = "123456";
 
 function registration() {
   if (passwordAttempts >= 3) {
-    document.getElementById("passwordError").innerHTML = "You have attempted more than two times. System is locked!";
+    document.getElementById("passwordError").innerHTML = "You have attempted more than three times. System is locked!";
     document.getElementById("passwordError").style.color = "red";
     document.getElementById("submitBtn").disabled = true;
     return false;
